@@ -8,7 +8,8 @@ export zks=$3
 
 ##build kafka config
 kconfig="broker.id=${id}
-num.io.threads=8socket.send.buffer.bytes=102400
+num.io.threads=8
+socket.send.buffer.bytes=102400
 socket.receive.buffer.bytes=102400
 socket.request.max.bytes=104857600
 num.partitions=1
