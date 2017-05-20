@@ -12,5 +12,5 @@ docker kafka-cluster
 docker run --net host --name kafka \
 	-p 9200:9200 \
 	-v /data/db/kafka:/data/db/ \
-	-d sundyli/kafka-cluster  ${id} lp2,lp3,lp4 
+	-d sundyli/kafka-cluster  ${id} ${host} ${zks}
 ```
