@@ -2,6 +2,7 @@
 docker kafka-cluster
 
 ## docker-hub
+	https://hub.docker.com/r/sundyli/kafka-cluster/
 
 ## usage
 	- dataDir: /data/db/
