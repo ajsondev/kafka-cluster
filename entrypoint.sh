@@ -18,6 +18,7 @@ log.retention.hours=12
 log.segment.bytes=1073741824
 log.retention.check.interval.ms=300000
 zookeeper.connection.timeout.ms=6000
+auto.leader.rebalance.enable=true
 "
 kconfig="${kconfig}"$'\n'"advertised.listeners=PLAINTEXT://${host}:9092"
 kconfig="${kconfig}"$'\n'"log.dirs=${dataLogDir}"
